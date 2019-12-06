@@ -14,7 +14,7 @@ import java.util.concurrent.CountDownLatch;
 public class Test {
 
     public static void main(String[] args){
-        int threads = 10;
+        int threads = 100;
         for (int i = 1; i <= threads; i++){
             new Thread(()->{
                 for (int j = 1; j <= threads; j++){
